@@ -11,6 +11,9 @@ const generateResponse = async (message) => {
             prompt: prompt_subject,
             max_tokens: 2000,
             n: 1, 
+            top_p: 1.0,
+            frequency_penalty: 0.0,
+            presence_penalty: 0.0,
             temperature: 0.3,
         });
         if (completion.choices && completion.choices.length > 0) {
