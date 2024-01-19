@@ -1,0 +1,3 @@
+[submodule "backend-what-to-study"]
+	path = backend-what-to-study
+	url = ./backend-what-to-study
